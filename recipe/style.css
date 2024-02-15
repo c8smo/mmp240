@@ -1,3 +1,44 @@
-body {background-color: rgb(198, 158, 37);
-    border-radius: 0%;
+body 
+{
+    background-color: rgb(198, 158, 37);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    border: solid 15px rgb(255, 245, 222);
+    padding: 5%;
+
+    
+}
+
+h1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    color: maroon;
+    font-size: 2.3rem /* 36.8 pxs */;
+
+    line-height: 1.5em;
+
+
+}
+
+h2
+{
+  color: rgb(59, 37, 159);  
+  line-height: 2em;
+}
+
+ol
+{
+    line-height: 2em;
+    font-size: 1.15rem;
+}
+
+ul,p
+{
+    line-height: 1.5em;
+    font-size: 1.1rem;
+
+    
 }
