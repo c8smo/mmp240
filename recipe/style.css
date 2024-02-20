@@ -1,44 +1,54 @@
 body 
 {
-    background-color: rgb(198, 158, 37);
+    background-color: rgb(201, 160, 36);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
     width: 1000px;
-    border: solid 15px rgb(255, 245, 222);
+    border: solid 18px rgb(255, 245, 222);
     padding: 5%;
+    color: rgb(0, 77, 193);
+
+    
 
     
 }
 
 h1
 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: oblique;
-    color: maroon;
-    font-size: 2.3rem /* 36.8 pxs */;
-
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
     line-height: 1.5em;
-
 
 }
 
+
+            
+  
 h2
 {
-  color: rgb(59, 37, 159);  
-  line-height: 2em;
+  color: rgb(191, 0, 102);  
+  line-height: 3em;
+
 }
 
 ol
 {
     line-height: 2em;
-    font-size: 1.15rem;
+    font-size: 1.09rem;
+    background-color: rgb(255, 241, 224);
 }
 
 ul,p
 {
     line-height: 1.5em;
-    font-size: 1.1rem;
-
+    font-size: 1.06rem;
+    background-color: beige;
+    padding: 5rem;
     
+}
+
+img
+{
+    margin-left: 280px;
 }
