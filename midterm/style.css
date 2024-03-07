@@ -1,24 +1,62 @@
 body
 {
-    background-color: rgb(26, 41, 112);
-    padding: 1em;
+    background-color: rgb(174, 201, 22);
+    
+    
 }
 
 #wrapper {
-    width: 2000px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(206, 209, 42);
+    width: 1700px;
+    
+   
+    
+    background-color: rgb(4, 18, 22);
+  
+   padding: 2em;
+
    
    
 }
 
 header 
 {
-    background-color: aliceblue;
+    /*background-color: aliceblue;
     background-image: url("images/risebanner.png");
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: top left;
+    background-size: 40%;*/     
 
 
+
+    background: url("images/risebanner.png") no-repeat top right/52%,
+
+rgb(2, 8, 18);
+
+
+    padding: 2em;
+    
+
+
+}
+
+
+.bannertext
+{
+    color: rgb(48, 158, 68);
+    width: 30%;
+   margin-left: 20px;
+    font-size:  1.2rem;
+    
+}
+
+.btn
+{   display:block;
+    background-color: rgb(106, 106, 255);
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+    width: 5em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
 }
