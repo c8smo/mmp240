@@ -6,13 +6,13 @@ body
 }
 
 #wrapper {
-    width: 1700px;
+    width: 1650px;
     
-   
-    
+   margin-left: 20px;
+margin-right: auto;    
     background-color: rgb(4, 18, 22);
   
-   padding: 2em;
+   padding: 1em;
 
    
    
@@ -33,7 +33,7 @@ header
 rgb(2, 8, 18);
 
 
-    padding: 2em;
+    padding: 1em;
     
 
 
