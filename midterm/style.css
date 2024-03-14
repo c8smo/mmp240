@@ -1,3 +1,13 @@
+
+* {      /*universal selector, ovverides default margins etc*/
+    margin: 0;
+    padding:0;
+    border: 0;
+}
+
+
+
+
 body
 {
     background-color: rgb(174, 201, 22);
@@ -5,20 +15,25 @@ body
     
 }
 
+p {
+    margin-bottom: 1em; /*gives spacing to the margins that are overrided by universal selector*/
+}
+
 #wrapper {
-    width: 1650px;
+    width: 1690px;
     
    margin-left: 20px;
 margin-right: auto;    
     background-color: rgb(4, 18, 22);
   
-   padding: 1em;
+  
 
    
    
 }
 
 header 
+/*******this is a header banner style******/
 {
     /*background-color: aliceblue;
     background-image: url("images/risebanner.png");
@@ -33,7 +48,7 @@ header
 rgb(2, 8, 18);
 
 
-    padding: 1em;
+    padding: 2em;
     
 
 
@@ -44,8 +59,9 @@ rgb(2, 8, 18);
 {
     color: rgb(48, 158, 68);
     width: 30%;
-   margin-left: 20px;
+  
     font-size:  1.2rem;
+    
     
 }
 
@@ -59,4 +75,50 @@ rgb(2, 8, 18);
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    margin-left: 20px;
+}
+
+nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+/**** *navigation bar*** ****/
+nav{
+background-color: rgb(138, 166, 113);
+
+}
+
+nav li{
+    display:inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    padding-left: 2em;
+}
+
+/* ********** main ******** */
+
+main{
+    padding: 2em;
+}
+
+.col-left{
+    float: left;
+    weight:40%;
+
+}
+
+.col-right{
+    float: right;
+    weight:40%;
+}
+
+footer{
+    clear: both;
+    padding: 2em;
 }
