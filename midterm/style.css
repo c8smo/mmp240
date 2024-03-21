@@ -122,3 +122,20 @@ footer{
     clear: both;
     padding: 2em;
 }
+
+
+
+/* ******************************** *episodes* *****8**/
+
+.flex-layout{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    width: 22%;
+    margin: 10px;
+    
+    
+}
