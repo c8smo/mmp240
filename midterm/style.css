@@ -83,7 +83,7 @@ rgb(2, 8, 18);
 }
 
 nav a{
-    color: rgb(0, 0, 0);
+    color: rgb(28, 112, 66);
     text-decoration: none;
 }
 
@@ -121,6 +121,8 @@ main{
     margin-top: 50px;
     background-color: rgb(218, 243, 57);
     padding: 20px;
+    color: rgb(30, 145, 80);
+    border: solid 12px rgb(152, 226, 47);
     
     
     
@@ -135,7 +137,7 @@ main{
     border: solid 12px rgb(152, 226, 47);
     padding: 20px;
     background-color: rgb(218, 243, 57);
-    color: rgb(162, 40, 70);
+    color: rgb(30, 145, 80);
     
    
    
@@ -147,6 +149,7 @@ main{
 footer{
     clear: both;
     padding: 2em;
+    color: rgb(110, 141, 54);
 }
 
 
@@ -164,7 +167,11 @@ footer{
     flex: 1 0 auto; /* flex-grow; yes flex-shrink;no flex-basis;original width*/
     max-width: 22%; /* starting width */
     margin: 1em;
-    border: dashed 5px white;
+    border: dashed 5px rgb(255, 255, 255);
+    color: rgb(10, 130, 90);
+    
+    
+
     
    
     
@@ -173,4 +180,12 @@ footer{
 }
 .img-card{
     width:100%;
+}
+
+h4,p{
+    margin-left: 10px;
+}
+
+h4{
+    text-decoration: solid; 
 }
