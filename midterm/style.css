@@ -189,3 +189,37 @@ h4,p{
 h4{
     text-decoration: solid; 
 }
+
+@media (max-width:1000px){
+h1 {
+    width: 50%;
+}
+h1 img{
+    width: 50%;
+}
+
+.bannertext{
+    width: 50%;
+    font-size: 1rem;
+}
+}
+
+@media (max-width:700px){
+    .bannertext{
+        width:100%;
+        font-size: 1rem;
+    }
+
+    header{
+        background: url("images/risebanner.png") no-repeat top right/90%,
+        black;
+padding-top: 10em;
+padding-bottom: 0.5em;
+    }
+    .col-left, .col-right{
+        float: none;
+        clear: both;
+        width: 100%;
+    }
+   
+}
