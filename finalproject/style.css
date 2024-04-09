@@ -1,0 +1,19 @@
+.flex-container
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+h1
+{
+    font-size: 1.5rem;
+
+}
+#top-menu
+{
+   display: none;
+}
