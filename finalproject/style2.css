@@ -52,11 +52,11 @@
 
 /* ******** 4. Utilities ******* */
 
-    
 .flex-container{
     display: flex;
     justify-content: space-between;
 }
+
 
    /* both larger-text and img-responsive are 
     for smaller viewports, flex container can be removed from here
@@ -77,20 +77,13 @@
  /* *************** 5. Header and top navigation ******/
     #top-menu
 {
-    
+    width: 100%;
     display: none;
    padding: 0.5em;
    border: solid 1px black;
-   background-color: aliceblue;
    clear: right;
-   position: absolute;
-   right: 0;
-   top: 28px;
 }
 
-header{
-    position: relative;
-}
 #top-menu ul{
 list-style: none;
 }
