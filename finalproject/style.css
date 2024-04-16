@@ -100,6 +100,40 @@ list-style: none;
 
 
 /* *************** 6. Program navigation ******/
+nav ul{
+    list-style-type:none;
+}
+
+li.dropdown{
+    border-bottom: 1px solid black;
+}
+li.dropdown ul{
+    display: none;
+}
+
+li.dropdown:hover ul{
+display: block;
+}
+
+.dropdown a{
+    display: block;
+    padding: 5px;
+    color: black;
+    text-decoration:none;
+}
+
+.dropdown li a{
+    color: rgb(233, 183, 122);
+}
+
+.dropdown li a:hover{
+color: rgb(65, 199, 199);
+}
+
+.expand{
+    float: right;
+}
+
 
 
 /* *************** 7. Homepage content ******/

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
+    <style>
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+        
+        li ul{
+            display: none;
+        } 
+
+       li:hover ul{
+        display: block;
+        
+       }
+
+
+       ul{
+        list-style-type: none;
+        padding: 0;
+       }
+       
+       li{
+        border-bottom: 1px rgb(255, 255, 255) solid;
+        background-color: rgb(235, 183, 29);
+        padding: 5px;
+       }
+
+       nav a{
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding: 2px;
+       }
+
+       li li :hover{
+        background-color: rgb(255, 214, 192);
+
+       }
+
+       li li {
+        background-color: rgb(255, 203, 59);
+       }
+
+       .expand {
+         float: right;
+       
+         
+       }
+    </style>
+</head>
+<body>
+    <nav>
+        <li><a href="">Fruits<span class="material-symbols-outlined expand">expand_more</span></a>
+        
+        <ul>
+            <li><a href="">Apples</a></li>
+            <li><a href="">Pears</a></li>
+            <li><a href="">oranges</a></li>
+            
+
+
+        </ul>
+    </li>
+
+    <li><a href="">Vegetables<span class="material-symbols-outlined expand">
+        expand_more</span></a>
+
+        <ul>
+            <li><a href="">Carrots</a></li>
+            <li><a href="">Peppers</a></li>
+            <li><a href="">Cucumbers</a></li>
+
+        </ul>
+    
+
+</nav>
+</body>
+</html>
