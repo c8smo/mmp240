@@ -137,15 +137,83 @@ color: rgb(65, 199, 199);
 
 
 /* *************** 7. Homepage content ******/
-
+.banner{
+    display: block;
+    padding: 6em;
+    padding-top: 2em;
+  background: url("images/09_14_2004_qcc_campus_05.jpg") no-repeat center/70%;
+  
+  background-size: cover;
+  
+  
+    
+}
+.banner a{
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
+    font-size: larger;
+    background-color: rgb(41, 36, 36);
+    margin: 2em;
+    
+    
+    
+}
 
 /* *************** 8. Program pages ******/
 
 
 /* *************** 9. Media queries ******/
 
+@media (min-width:768px){
+
+.program-nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.program-nav li{
+ width: 30%;
+ position: relative;
+ 
+} 
+
+.program-nav li li{ /* these ones are ones that dropdown, so the text fits the box content size*/
+    width: 100%;
+} 
 
 
+.dropdown{
+    width: 30%;
+    position: relative;
+   
+    
+}
+.dropdown ul{
+    display: block;
+    position: absolute;
+    background-color: rgb(254, 250, 244);
+    border: solid rgb(144, 177, 201);
+    padding: 5px;
+    width: 100%;
+    
+}
+ main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2em;
+ }
+
+ .news{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+ }
+
+ .event{
+    grid-column-start: 4;
+ }
+} /*closing media querie */
 
 
 
