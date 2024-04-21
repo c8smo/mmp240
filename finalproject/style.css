@@ -198,21 +198,30 @@ color: rgb(65, 199, 199);
     width: 100%;
     
 }
- main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 2em;
- }
+ 
+ 
+ .flex-layout{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 
- .news{
-    grid-column-start: 1;
-    grid-column-end: 4;
+.card{
+    flex: 1 0 auto; /* flex-grow; yes flex-shrink;no flex-basis;original width*/
+    max-width: 22%; /* starting width */
+    margin: 1em;
+    border: 1px solid black;
+   padding: 1em;
+   margin-top: 50px;
+   margin-bottom: 50px;
 
- }
+}
 
- .event{
-    grid-column-start: 4;
- }
+
+.img-card
+{
+    width: 100%;
+}
 } /*closing media querie */
 
 
