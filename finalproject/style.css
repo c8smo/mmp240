@@ -165,7 +165,7 @@ color: rgb(65, 199, 199);
 
 /* *************** 9. Media queries ******/
 
-@media (min-width:768px){
+@media (min-width:760px) {}
 
 .program-nav ul{
     display: flex;
@@ -198,35 +198,69 @@ color: rgb(65, 199, 199);
     width: 100%;
     
 }
+ .program-layout img{
+    width: 100%;
+ }
  
- 
- .flex-layout{
-    display: flex;
-    flex-wrap: wrap;
+ .program-layout{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    grid-gap: 1rem;
+    font-size: smaller;
+    
+    
+    
+    
+    
+   
     
 }
 
+h2{
+    
+    margin-left: 20px;
+}
+
+
+
 .card{
-    flex: 1 0 auto; /* flex-grow; yes flex-shrink;no flex-basis;original width*/
-    max-width: 22%; /* starting width */
-    margin: 1em;
-    border: 1px solid black;
-   padding: 1em;
-   margin-top: 50px;
-   margin-bottom: 50px;
+    /*flex: 1 0 auto;  flex-grow; yes flex-shrink;no flex-basis;original width*/
+   
+margin-top: 30px;
+   border: 1px solid rgb(152, 78, 14);
+  
+  background-color: blanchedalmond;
+  transition-property: background-color box-shadow transform;
+  border-radius: 8px;
+  margin-bottom: 20px;
+
+}
+
+
+.card:hover{
+   transition-duration: 1.3s;
+   background-color: rgb(246, 247, 173);
+   box-shadow: 1px 2px 1px rgb(75, 67, 55);
+   transform: scale(1.02);
+}
 
 a{
 text-decoration: none;
+color: gray;
 }
 
-a:hover{}
+a:hover{
  text-decoration: underline;
+ color: black;
 }
 
 .img-card
 {
     width: 100%;
-}
+    border-radius: 8px;
+
+    
 } /*closing media querie */
 
 
