@@ -37,6 +37,8 @@
     #wrapper{
         max-width: 1200px;
         margin: 0 auto;
+        
+        
        
     }
 
@@ -44,6 +46,7 @@
     border: solid rgb(255, 179, 0) 1px;
     padding: 3px;
     background-color: rgb(152, 203, 88);
+    
    }
 
 /* ********3. Typography **** */
@@ -51,6 +54,10 @@
 {
     font-size: 1.5rem;
     line-height: 1em;
+    
+    
+    
+    
 }
 
 /* ******** 4. Utilities ******* */
@@ -94,6 +101,8 @@
 
 header{
     position: relative;
+    
+   
 }
 #top-menu ul{
 list-style: none;
@@ -109,10 +118,13 @@ display: flex;
 /* *************** 6. Program navigation ******/
 nav ul{
     list-style-type:none;
+    border: solid rgb(252, 221, 96) 5px;
+    border-radius: 12px;
+    background-color: rgb(255, 231, 135);
 }
 
 li.dropdown{
-    border-bottom: 1px solid black;
+    border-bottom: 4px solid rgb(255, 238, 238);
 }
 li.dropdown ul{
     display: none;
@@ -293,6 +305,5 @@ a:hover{
 
 
 
-main{
-    background-image: linear-gradient(to right, rgb(232, 143, 75), rgb(233, 186, 59));
-}
+
+
