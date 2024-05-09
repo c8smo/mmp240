@@ -31,7 +31,7 @@
         font-family: sans-serif;
         line-height: 1.5em;
         margin: 0.5rem;
-        background-color: lightsalmon;
+        
     }
 
     #wrapper{
@@ -47,7 +47,8 @@
    input{
     border: solid rgb(255, 179, 0) 1px;
     padding: 3px;
-    background-color: rgb(152, 203, 88);
+    background-color: rgb(171, 221, 111);
+    color: brown;
     
    }
 
@@ -65,7 +66,7 @@
 }
 
 main{
-    margin-top: 20px;
+    
 }
 
 /* ******** 4. Utilities ******* */
@@ -100,7 +101,7 @@ main{
     display: none;
    padding: 0.5em;
    border: solid 1px black;
-   background-color: rgb(226, 80, 163);
+   background-color: rgb(125, 171, 62);
    clear: right;
    position: absolute;
    right: 0;
@@ -275,20 +276,15 @@ color: rgb(65, 199, 199);
 h2{
     
     text-align: center;
-    color: bisque;
+    color: rgb(188, 122, 40);
     
-}
-
-.search-by{
-    text-align: center;
-    color: bisque;
 }
 
 .card{
     /*flex: 1 0 auto;  flex-grow; yes flex-shrink;no flex-basis;original width*/
    
 
-   border: 3px solid rgb(152, 78, 14);
+   border: 2px solid rgb(200, 104, 20);
   
   background-color: blanchedalmond;
   transition-property: background-color box-shadow transform;
