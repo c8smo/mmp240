@@ -31,12 +31,14 @@
         font-family: sans-serif;
         line-height: 1.5em;
         margin: 0.5rem;
-        background-color: rgb(239, 129, 92);
+        background-color: lightsalmon;
     }
 
     #wrapper{
-        max-width: 1200px;
+        max-width: 1300px;
         margin: 0 auto;
+        
+        
         
         
        
@@ -54,10 +56,16 @@
 {
     font-size: 1.5rem;
     line-height: 1em;
+    color: rgb(29, 29, 155);
     
     
     
     
+    
+}
+
+main{
+    margin-top: 20px;
 }
 
 /* ******** 4. Utilities ******* */
@@ -66,16 +74,17 @@
 .flex-container{
     display: flex;
     justify-content: space-between;
+    
 }
 
    /* both larger-text and img-responsive are 
     for smaller viewports, flex container can be removed from here
     because its for larger viewports. it will be placed somewhere else. */
     
-    .larger-text{ 
+   /* .larger-text{ 
     font-size: larger;
 }
-
+*/
 .img-responsive {
     width: 100%;
 }
@@ -97,10 +106,13 @@
    right: 0;
    top: 28px;
    
+   
 }
 
 header{
     position: relative;
+    
+    
     
    
 }
@@ -119,12 +131,16 @@ display: flex;
 nav ul{
     list-style-type:none;
     border: solid rgb(252, 221, 96) 5px;
-    border-radius: 12px;
+    border-radius: 8px;
     background-color: rgb(255, 231, 135);
+    
+    
+   
 }
 
 li.dropdown{
     border-bottom: 4px solid rgb(255, 238, 238);
+    
 }
 li.dropdown ul{
     display: none;
@@ -137,8 +153,9 @@ display: block;
 .dropdown a{
     display: block;
     padding: 5px;
-    color: black;
+    color: rgb(176, 52, 52);
     text-decoration:none;
+    
 }
 
 .dropdown li a{
@@ -225,6 +242,10 @@ color: rgb(65, 199, 199);
     border: none;
     position:static
 }
+.program-layout{
+    text-wrap: wrap;
+    font-size: smaller;
+}
 
 /*.menu-icon{
     
@@ -234,9 +255,7 @@ color: rgb(65, 199, 199);
 
 
 
- .program-layout img{
-    width: 100%;
- }
+
  
  .program-layout{
     display: grid;
@@ -255,26 +274,33 @@ color: rgb(65, 199, 199);
 
 h2{
     
-    margin-left: 20px;
+    text-align: center;
+    color: bisque;
+    
 }
 
-
+.search-by{
+    text-align: center;
+    color: bisque;
+}
 
 .card{
     /*flex: 1 0 auto;  flex-grow; yes flex-shrink;no flex-basis;original width*/
    
-margin-top: 30px;
-   border: 1px solid rgb(152, 78, 14);
+
+   border: 3px solid rgb(152, 78, 14);
   
   background-color: blanchedalmond;
   transition-property: background-color box-shadow transform;
   border-radius: 8px;
-  margin-bottom: 20px;
+  
+  
 
 }
 
 .card-body{
     margin-left: 20px;
+    color: rgb(226, 116, 43);
 }
 
 .card:hover{
@@ -286,18 +312,20 @@ margin-top: 30px;
 
 a{
 text-decoration: none;
-color: rgb(122, 53, 53);
+color: rgb(214, 98, 98);
+
 }
 
 a:hover{
  text-decoration: underline;
- color: rgb(103, 6, 127);
+ color: rgb(134, 192, 58);
 }
 
 .img-card
 {
     width: 100%;
     border-radius: 8px;
+
 
     
 } /*closing media querie */
