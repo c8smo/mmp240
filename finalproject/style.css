@@ -35,8 +35,10 @@
     }
 
     #wrapper{
-        max-width: 1300px;
+        max-width: 1200px;
         margin: 0 auto;
+        
+        
         
         
         
@@ -68,6 +70,12 @@
 footer{
     color: burlywood;
     background-color: beige;
+    
+}
+
+.events{
+    margin-left: 50px;
+    width: 100%;
 }
 
 /* ******** 4. Utilities ******* */
