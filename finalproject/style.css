@@ -31,12 +31,27 @@
         font-family: sans-serif;
         line-height: 1.5em;
         margin: 0.5rem;
+        background-color: rgb(57, 8, 44);
+      
+       
+       
         
+    }
+    .events{
+        padding: 2em;
+      width: 110%;
+      margin-top: 70px;
+      margin-left: 70px;
     }
 
     #wrapper{
         max-width: 1200px;
         margin: 0 auto;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        border-style:groove;
+        
+        padding: 2em;
         
         
         
@@ -45,6 +60,8 @@
         
        
     }
+
+    
 
    input{
     border: solid rgb(255, 179, 0) 1px;
@@ -65,6 +82,7 @@
     
     
     
+    
 }
 
 footer{
@@ -73,10 +91,7 @@ footer{
     
 }
 
-.events{
-    margin-left: 50px;
-    width: 100%;
-}
+
 
 /* ******** 4. Utilities ******* */
 
@@ -84,6 +99,7 @@ footer{
 .flex-container{
     display: flex;
     justify-content: space-between;
+   
     
 }
 
@@ -117,10 +133,13 @@ footer{
    top: 28px;
    
    
+   
 }
 
 header{
     position: relative;
+    
+    
     
     
     
@@ -250,7 +269,8 @@ color: rgb(65, 199, 199);
 #top-menu{
     display: flex;
     border: none;
-    position:static
+    position:static;
+    
 }
 .program-layout{
     text-wrap: wrap;
@@ -306,6 +326,8 @@ p{
   background-color: blanchedalmond;
   transition-property: background-color box-shadow transform;
   border-radius: 8px;
+  margin-bottom: 20px;
+  
   
   
 
@@ -338,6 +360,7 @@ a:hover{
 {
     width: 100%;
     border-radius: 8px;
+    max-height: fit-content;
 
 
     
