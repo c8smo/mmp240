@@ -247,6 +247,9 @@ li.dropdown:hover ul {
 
 @media (min-width:768px) {
 
+
+    
+
     .program-nav ul {
         display: flex;
         justify-content: space-between;
@@ -294,11 +297,6 @@ li.dropdown:hover ul {
     
    
 
-    /*.program-layout {
-        text-wrap: wrap;
-        font-size: smaller;
-       
-    */
 
     .menu-icon{
     display: none;
