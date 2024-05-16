@@ -294,11 +294,11 @@ li.dropdown:hover ul {
     
    
 
-    .program-layout {
+    /*.program-layout {
         text-wrap: wrap;
         font-size: smaller;
        
-    }
+    */
 
     .menu-icon{
     display: none;
@@ -320,7 +320,11 @@ li.dropdown:hover ul {
    grid-template-columns: repeat(2, 1fr);
 }
 
-.material-symbols-outlined{
+.material-symbols-outlined .float-right{
+    display: none;
+}
+
+#top-menu{
     display: none;
 }
 
@@ -330,6 +334,7 @@ h2 {
 
     color: rgb(212, 126, 22);
     padding: 1em;
+    
 
 }
 
@@ -366,6 +371,7 @@ h4{
     border-radius: 8px;
     margin-bottom: 20px;
 
+     text-wrap: wrap;
 
 
 
@@ -374,6 +380,8 @@ h4{
 .card-body {
     margin-left: 20px;
     color: rgb(226, 116, 43);
+    text-wrap: wrap;
+    font-size: smaller;
 }
 
 .card:hover {
@@ -397,7 +405,7 @@ a:hover {
 .img-card {
     width: 100%;
     border-radius: 8px;
-    max-height: fit-content;
+    
 
 
 
