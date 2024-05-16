@@ -27,7 +27,7 @@ border: none;
     /* 2. Page Styles */
 
 html {
-    font-size: 20px;
+    font-size:20px
     /* root font size */
 }
 
@@ -103,13 +103,9 @@ footer {
 
 /* ******** 4. Utilities ******* */
 
-
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-   
-
-
+flex-container{
+    display:flex;
+    justify-content:space-between;
 }
 
 /* both larger-text and img-responsive are 
@@ -159,7 +155,7 @@ header {
 
 #top-menu ul {
     list-style: none;
-    display: flex;
+    
 }
 
 #top-menu li {
@@ -213,7 +209,9 @@ li.dropdown:hover ul {
     float: right;
 }
 
-
+.img-card{
+    width: 1000%;
+}
 
 /* *************** 7. Homepage content ******/
 .banner {
@@ -247,7 +245,10 @@ li.dropdown:hover ul {
 
 @media (min-width:768px) {
 
-
+.flex-container{
+    display:flex;
+    justify-content:space-between;
+}
     
 
     .program-nav ul {
@@ -271,6 +272,7 @@ li.dropdown:hover ul {
     .dropdown {
         width: 30%;
         position: relative;
+        
 
 
     }
@@ -289,7 +291,7 @@ li.dropdown:hover ul {
     }
 
     #top-menu {
-        display: flex;
+        
         border: none;
         position: static;
 
@@ -322,8 +324,8 @@ li.dropdown:hover ul {
     display: none;
 }
 
-#top-menu{
-    display: none;
+.top-menu{
+    display:none;
 }
 
 
