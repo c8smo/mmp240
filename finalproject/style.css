@@ -15,99 +15,103 @@
 /* **** 1. Resets ****
 
 *{
-    margin:0;
-    padding:0;
-    border:0;
-    */
+margin:0;
+padding:0;
+border: none;
+}
+
+
+    
 
 
     /* 2. Page Styles */
 
-     html{
-        font-size: 20px;  /* root font size */
-     }
+html {
+    font-size: 20px;
+    /* root font size */
+}
 
-    body{
-        font-family: sans-serif;
-        line-height: 1.5em;
-        margin: 0.5rem;
-        background-color: rgb(57, 8, 44);
-      
-       
-       
-        
-    }
-    .events{
-        padding: 2em;
-      width: 110%;
-      margin-top: 70px;
-      margin-left: 70px;
-    }
+body {
+    font-family: sans-serif;
+    line-height: 1.5em;
+    margin: 0.5rem;
+    background-color: rgb(57, 8, 44);
 
-    #wrapper{
-        max-width: 1200px;
-        margin: 0 auto;
-        background-color: rgb(255, 255, 255);
-        border-radius: 8px;
-        border-style:groove;
-        
-        padding: 2em;
-        
-        
-        
-        
-        
-        
-       
-    }
 
-    
 
-   input{
+
+}
+
+.events {
+    padding: 2em;
+    width: 110%;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border-style: groove;
+
+    padding: 2em;
+
+
+
+
+
+
+
+}
+
+
+
+input {
     border: solid rgb(255, 179, 0) 1px;
     padding: 3px;
     background-color: rgb(171, 221, 111);
     color: brown;
-    
-   }
+
+}
 
 /* ********3. Typography **** */
-    h1
-{
+h1 {
     font-size: 1.5rem;
     line-height: 1em;
     color: rgb(29, 29, 155);
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
 }
 
-footer{
+footer {
     color: burlywood;
     background-color: beige;
-    
+
 }
 
 
 
 /* ******** 4. Utilities ******* */
 
-    
-.flex-container{
+
+.flex-container {
     display: flex;
     justify-content: space-between;
-   
-    
+
+
 }
 
-   /* both larger-text and img-responsive are 
+/* both larger-text and img-responsive are 
     for smaller viewports, flex container can be removed from here
     because its for larger viewports. it will be placed somewhere else. */
-    
-   /* .larger-text{ 
+
+/* .larger-text{ 
     font-size: larger;
 }
 */
@@ -115,114 +119,116 @@ footer{
     width: 100%;
 }
 
-.float-right{
+.float-right {
     float: right;
 }
 
- /* *************** 5. Header and top navigation ******/
-    #top-menu
-{
-    
+/* *************** 5. Header and top navigation ******/
+#top-menu {
+
     display: none;
-   padding: 0.5em;
-   border: solid 1px black;
-   background-color: rgb(125, 171, 62);
-   clear: right;
-   position: absolute;
-   right: 0;
-   top: 28px;
-   
-   
-   
+    padding: 0.5em;
+    border: solid 1px black;
+    background-color: rgb(125, 171, 62);
+    clear: right;
+    position: absolute;
+    right: 0;
+    top: 28px;
+
+
+
 }
 
-header{
+header {
     position: relative;
-    
-    
-    
-    
-    
-   
-}
-#top-menu ul{
-list-style: none;
-display: flex;
+
+
+
+
+
+
 }
 
-#top-menu li{
+#top-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+#top-menu li {
     margin-right: 1.5em;
 }
 
 
 
 /* *************** 6. Program navigation ******/
-nav ul{
-    list-style-type:none;
+nav ul {
+    list-style-type: none;
     border: solid rgb(252, 221, 96) 5px;
     border-radius: 8px;
     background-color: rgb(255, 231, 135);
-    
-    
-   
+
+
+
 }
 
-li.dropdown{
+li.dropdown {
     border-bottom: 4px solid rgb(255, 238, 238);
-    
+
 }
-li.dropdown ul{
+
+li.dropdown ul {
     display: none;
 }
 
-li.dropdown:hover ul{
-display: block;
+li.dropdown:hover ul {
+    display: block;
 }
 
-.dropdown a{
+.dropdown a {
     display: block;
     padding: 5px;
     color: rgb(176, 52, 52);
-    text-decoration:none;
-    
+    text-decoration: none;
+
 }
 
-.dropdown li a{
+.dropdown li a {
     color: rgb(233, 183, 122);
 }
 
-.dropdown li a:hover{
-color: rgb(65, 199, 199);
+.dropdown li a:hover {
+    color: rgb(65, 199, 199);
 }
 
-.expand{
+.expand {
     float: right;
 }
 
 
 
 /* *************** 7. Homepage content ******/
-.banner{
+.banner {
     display: block;
     padding: 6em;
     padding-top: 2em;
-  background: url("images/09_14_2004_qcc_campus_05.jpg") no-repeat center/70%;
-  
-  background-size: cover;
-  
-  
-    
+    background: url("images/09_14_2004_qcc_campus_05.jpg") no-repeat center/70%;
+
+    background-size: cover;
+
+
+
 }
-.banner a{
+
+.banner a {
     text-decoration: none;
     color: aliceblue;
     text-shadow: 2px 2px 2px black;
     font-size: larger;
     background-color: rgb(41, 36, 36);
     margin: 2em;
-    
-    
-    
+
+
+
 }
 
 /* *************** 8. Program pages ******/
@@ -232,52 +238,56 @@ color: rgb(65, 199, 199);
 
 @media (min-width:760px) {
 
-.program-nav ul{
-    display: flex;
-    justify-content: space-between;
-}
+    .program-nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
 
-.program-nav li{
- width: 30%;
- position: relative;
- 
-} 
+    .program-nav li {
+        width: 30%;
+        position: relative;
 
-.program-nav li li{ /* these ones are ones that dropdown, so the text fits the box content size*/
-    width: 100%;
-} 
+    }
 
-
-.dropdown{
-    width: 30%;
-    position: relative;
-   
-    
-}
-.dropdown ul{
-    display: block;
-    position: absolute;
-    background-color: rgb(254, 250, 244);
-    border: solid rgb(144, 177, 201);
-    padding: 5px;
-    width: 100%;
+    .program-nav li li {
+        /* these ones are ones that dropdown, so the text fits the box content size*/
+        width: 100%;
+    }
 
 
-    
-    
-}
-#top-menu{
-    display: flex;
-    border: none;
-    position:static;
-    
-}
-.program-layout{
-    text-wrap: wrap;
-    font-size: smaller;
-}
+    .dropdown {
+        width: 30%;
+        position: relative;
 
-/*.menu-icon{
+
+    }
+
+    .dropdown ul {
+        display: block;
+        position: absolute;
+        background-color: rgb(254, 250, 244);
+        border: solid rgb(144, 177, 201);
+        padding: 5px;
+        width: 100%;
+
+
+
+
+    }
+
+    #top-menu {
+        display: flex;
+        border: none;
+        position: static;
+
+    }
+
+    .program-layout {
+        text-wrap: wrap;
+        font-size: smaller;
+    }
+
+    /*.menu-icon{
     
 }  */
 
@@ -286,88 +296,86 @@ color: rgb(65, 199, 199);
 
 
 
- 
- .program-layout{
+
+.program-layout {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
+
     grid-gap: 1rem;
     font-size: smaller;
-    
-    
-    
-    
-    
-   
-    
+
+
+
+
+
+
+
 }
 
-h2{
-    
-   
+h2 {
+
+
     color: rgb(212, 126, 22);
-    
+
 }
-h3{
+
+h3 {
     color: rgb(198, 136, 43);
 }
 
-p{
+p {
     color: rgb(170, 21, 21);
 }
 
 
-.card{
+.card {
     /*flex: 1 0 auto;  flex-grow; yes flex-shrink;no flex-basis;original width*/
-   
 
-   border: 2px solid rgb(200, 104, 20);
-  
-  background-color: blanchedalmond;
-  transition-property: background-color box-shadow transform;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  
-  
-  
+
+    border: 2px solid rgb(200, 104, 20);
+
+    background-color: blanchedalmond;
+    transition-property: background-color
+     box-shadow
+      transform;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+
+
 
 }
 
-.card-body{
+.card-body {
     margin-left: 20px;
     color: rgb(226, 116, 43);
 }
 
-.card:hover{
-   transition-duration: 0.5s;
-   background-color: rgb(246, 247, 173);
-   box-shadow: 1px 2px 1px rgb(75, 67, 55);
-   transform: scale(1.02);
+.card:hover {
+    transition-duration: 0.5s;
+    background-color: rgb(246, 247, 173);
+    box-shadow: 1px 2px 1px rgb(75, 67, 55);
+    transform: scale(1.02);
 }
 
-a{
-text-decoration: none;
-color: rgb(214, 98, 98);
+a {
+    text-decoration: none;
+    color: rgb(214, 98, 98);
 
 }
 
-a:hover{
- text-decoration: underline;
- color: rgb(134, 192, 58);
+a:hover {
+    text-decoration: underline;
+    color: rgb(134, 192, 58);
 }
 
-.img-card
-{
+.img-card {
     width: 100%;
     border-radius: 8px;
     max-height: fit-content;
 
 
-    
-} /*closing media querie */
 
+}
 
-
-
-
-
+/*closing media querie */
