@@ -12,7 +12,7 @@
 */
 
 
-/* **** 1. Resets ****
+/* **** 1. Resets ****/
 
 *{
 margin:0;
@@ -37,6 +37,7 @@ body {
     margin: 0.5rem;
     background-color: rgb(57, 8, 44);
     
+    
    
 
 
@@ -53,12 +54,10 @@ body {
 
 #wrapper {
     max-width: 1200px;
-    margin: 0 auto;
+    
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
     border-style: groove;
-
-
     padding: 2em;
 
 
@@ -74,6 +73,7 @@ body {
 input {
     border: solid rgb(255, 179, 0) 1px;
     padding: 3px;
+    margin-left: 10px;
     background-color: rgb(235, 185, 70);
     color: brown;
 
@@ -107,6 +107,7 @@ footer {
 .flex-container {
     display: flex;
     justify-content: space-between;
+   
 
 
 }
@@ -138,10 +139,13 @@ footer {
     position: absolute;
     right: 0;
     top: 28px;
+    
 
 
 
 }
+
+
 
 header {
     position: relative;
@@ -160,6 +164,7 @@ header {
 
 #top-menu li {
     margin-right: 1.5em;
+    margin-left: 1em;
 }
 
 
@@ -240,7 +245,7 @@ li.dropdown:hover ul {
 
 /* *************** 9. Media queries ******/
 
-@media (min-width:760px) {
+@media (min-width:768px) {
 
     .program-nav ul {
         display: flex;
@@ -250,6 +255,7 @@ li.dropdown:hover ul {
     .program-nav li {
         width: 30%;
         position: relative;
+        
 
     }
 
@@ -285,20 +291,18 @@ li.dropdown:hover ul {
         position: static;
 
     }
+    
+   
 
     .program-layout {
         text-wrap: wrap;
         font-size: smaller;
+       
     }
 
-    /*.menu-icon{
-    
-}  */
-
-}
-
-
-
+    .menu-icon{
+    display: none;
+}  
 
 
 .program-layout {
@@ -306,30 +310,49 @@ li.dropdown:hover ul {
     grid-template-columns: repeat(3, 1fr);
 
     grid-gap: 1rem;
-    font-size: smaller;
-
-
-
-
-
+    
 
 
 }
+
+.homepage-layout{
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.material-symbols-outlined{
+    display: none;
+}
+
 
 h2 {
 
 
     color: rgb(212, 126, 22);
+    padding: 1em;
 
 }
 
 h3 {
     color: rgb(198, 136, 43);
+    padding: 1em;
+    
 }
 
 p {
     color: rgb(170, 21, 21);
+    padding: 1em;
+    
 }
+
+h5{
+    margin-bottom: 15px;
+}
+
+h4{
+    margin-bottom: 15px;
+}
+
 
 
 .card {
@@ -380,4 +403,5 @@ a:hover {
 
 }
 
+}
 /*closing media querie */
