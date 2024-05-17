@@ -293,7 +293,7 @@ li.dropdown:hover ul {
     #top-menu {
         
         border: none;
-        position: static;
+        position: absolute;
 
     }
     
